@@ -1,0 +1,17 @@
+.gallery{
+    text-align: center;
+}
+
+.gallery img{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 10px;
+}
+
+/* Jika lebar kurang lebih sama dengan 360px     */
+@media screen and (max-width: 360px) {
+    .gallery img{
+        width: 100%;
+        height: 120px;
+    }
+}

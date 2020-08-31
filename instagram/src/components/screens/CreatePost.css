@@ -1,0 +1,23 @@
+
+
+.myCard{
+    margin-top: 30px;
+}
+
+.auth-card{
+    padding: 5px;
+    text-align: center;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.auth-card input[type=text]:focus {
+    border-bottom: 1px solid rgb(8, 93, 252) !important;
+    box-shadow: 0 1px 0 0 rgb(8, 93, 252) !important;
+}
+
+.auth-card textarea:focus {
+    outline: none !important;
+    border: 1px solid rgb(8, 93, 252) !important;
+    box-shadow: 1px 0px 1px 1px rgb(8, 93, 252) !important;
+}

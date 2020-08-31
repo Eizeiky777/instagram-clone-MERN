@@ -1,0 +1,16 @@
+
+.home-card{
+    height: max-content;
+    margin: 5px auto;
+}
+
+.card-image img{
+    height: 200px;
+}
+
+/* Jika lebar kurang lebih sama dengan 360px     */
+@media screen and (max-width: 360px) {
+    .card-image img{
+        height: 100%;
+    }
+}
